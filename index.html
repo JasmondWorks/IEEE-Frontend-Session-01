@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Taskr</title>
+  </head>
+  <body>
+    <header class="top-header">
+      <nav class="mobile-nav">
+        <button class="mobile-nav__close-btn" aria-label="Close mobile menu">
+          <i class="ri-close-line"></i>
+        </button>
+
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item">
+            <a
+              href="#features"
+              class="mobile-nav__link mobile-nav__link--active"
+            >
+              Features
+            </a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#features" class="mobile-nav__link">How it works</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#features" class="mobile-nav__link">Pricing</a>
+          </li>
+        </ul>
+        <button class="btn btn--primary">Join waitlist</button>
+      </nav>
+
+      <div class="container top-header__container">
+        <div class="top-header__brand-logo-container">
+          <div class="hamburger-icon">
+            <i class="ri-menu-line"></i>
+          </div>
+          <span class="brand-logo">Taskr</span>
+        </div>
+        <!-- BEM (Block, Element and Modifier) Methodology -->
+        <nav class="primary-nav">
+          <a
+            href="#features"
+            class="primary-nav__link primary-nav__link--active"
+            >Features</a
+          >
+          <a href="#features" class="primary-nav__link">How it works</a>
+          <a href="#features" class="primary-nav__link">Pricing</a>
+        </nav>
+        <button class="btn btn--primary primary-nav__btn">Join waitlist</button>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__headline">
+              <span>Your team.</span>
+              <span>Your tasks.</span>
+              <span class="text-primary">No chaos.</span>
+            </h1>
+            <p class="hero__subheadline">
+              The lightweight task manager built for speed-obsessed African
+              teams. Manage priorities, track progress, and stay in sync without
+              the enterprise bloat.
+            </p>
+            <div class="hero__cta">
+              <button class="btn btn--primary">Join the waitlist</button>
+              <button class="btn btn--secondary">
+                See how it works <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+          </div>
+          <div class="hero__image-container">
+            <img
+              class="hero__image"
+              src="/images/phone-mockup.png"
+              alt="Phone mockup hero image showing tasks in app demo"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="why-taskr section">
+        <div class="container why-taskr__container">
+          <header class="section-header">
+            <h2 class="section-title">Why Taskr?</h2>
+            <p class="section-description">
+              Everything your team needs. <br />
+              Nothing it doesn't
+            </p>
+          </header>
+          <div class="why-taskr__features">
+            <div class="why-taskr__feature">
+              <div class="why-taskr__feature-icon-wrapper">
+                <i class="ri-wifi-off-line"></i>
+              </div>
+              <h3 class="why-taskr__feature-title">Works Offline</h3>
+              <p class="why-taskr__feature-description">
+                Weak connection? No problem. Taskr syncs your work locally and
+                updates the team as soon as you're back online.
+              </p>
+            </div>
+            <div class="why-taskr__feature">
+              <div class="why-taskr__feature-icon-wrapper">
+                <i class="ri-smartphone-line"></i>
+              </div>
+              <h3 class="why-taskr__feature-title">Mobile-First</h3>
+              <p class="why-taskr__feature-description">
+                Designed specifically for fast action on the move. Native-feel
+                performance on any smartphone, regardless of specs.
+              </p>
+            </div>
+            <div class="why-taskr__feature">
+              <div class="why-taskr__feature-icon-wrapper">
+                <i class="ri-checkbox-line"></i>
+              </div>
+              <h3 class="why-taskr__feature-title">Zero Bloat</h3>
+              <p class="why-taskr__feature-description">
+                No complex gantt charts or confusing sub-menus. Just tasks,
+                assignments, and due dates. Clean and simple.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works section">
+        <div class="container how-it-works__container">
+          <header class="section-header">
+            <h2 class="section-title">How it works</h2>
+            <p class="section-description">Up and running in minutes.</p>
+          </header>
+          <div class="how-it-works__steps">
+            <div class="how-it-works__step">
+              <div class="how-it-works__step-number">1</div>
+              <h3 class="how-it-works__step-title">Create workspace</h3>
+              <p class="how-it-works__step-description">
+                Setup your company workspace in seconds with just a name and
+                team size.
+              </p>
+            </div>
+            <div class="how-it-works__step">
+              <div class="how-it-works__step-number">2</div>
+              <h3 class="how-it-works__step-title">Invite team</h3>
+              <p class="how-it-works__step-description">
+                Add your members via magic link or email. No passwords, just
+                instant access.
+              </p>
+            </div>
+            <div class="how-it-works__step">
+              <div class="how-it-works__step-number">3</div>
+              <h3 class="how-it-works__step-title">Assign and track</h3>
+              <p class="how-it-works__step-description">
+                Start creating tasks. Assign them to members and watch the
+                progress bar grow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pricing section">
+        <div class="container pricing__container">
+          <header class="section-header">
+            <h2 class="section-title">Pricing</h2>
+            <p class="section-description">Simple pricing. No surprises</p>
+          </header>
+          <div class="pricing__plans">
+            <div class="pricing__plan">
+              <div class="pricing__plan-header">
+                <h3 class="pricing__plan-title">FREE</h3>
+                <div>
+                  <span class="pricing__plan-price">₦0</span>
+                  <span class="pricing__plan-frequency">/mo</span>
+                </div>
+              </div>
+              <ul class="pricing__plan-features">
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Up to 5 team members</span>
+                </li>
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Unlimited tasks</span>
+                </li>
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Basic priority tags</span>
+                </li>
+              </ul>
+              <button class="btn btn--secondary pricing__plan-btn">
+                Get started
+              </button>
+            </div>
+            <div class="pricing__plan pricing__plan--featured">
+              <span class="pricing__plan-badge">Most popular</span>
+              <div class="pricing__plan-header">
+                <h3 class="pricing__plan-title">TEAM</h3>
+                <div>
+                  <span class="pricing__plan-price">₦5,000</span>
+                  <span class="pricing__plan-frequency">/mo</span>
+                </div>
+              </div>
+              <ul class="pricing__plan-features">
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Up to 5 team members</span>
+                </li>
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Unlimited tasks</span>
+                </li>
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Advanced analytics</span>
+                </li>
+                <li class="pricing__plan-feature">
+                  <i class="ri-checkbox-circle-line"></i>
+                  <span>Basic priority tags</span>
+                </li>
+              </ul>
+              <button class="btn btn--primary pricing__plan-btn">
+                Join Waitlist
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="waitlist section">
+        <div class="container waitlist__container">
+          <header class="section-header">
+            <h2 class="section-title waitlist__section-title">
+              Get early access
+            </h2>
+            <p class="section-description">We launch in 3 weeks.</p>
+          </header>
+          <form class="waitlist__form">
+            <input
+              type="email"
+              placeholder="Email address"
+              class="waitlist__input"
+            />
+            <button type="submit" class="btn btn--primary">
+              Join waitlist
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__brand-info-container">
+          <span class="brand-logo">Taskr</span>
+          <span>Built for African teams</span>
+          <p>&copy; 2026 Taskr. All rights reserved.</p>
+        </div>
+        <nav class="footer-nav">
+          <div class="footer-nav__col">
+            <h3 class="footer-nav__title">Product</h3>
+            <a href="#" class="footer-nav__link">Privacy Policy</a>
+            <a href="#" class="footer-nav__link">Terms of Service</a>
+          </div>
+          <div class="footer-nav__col">
+            <h3 class="footer-nav__title">Connect</h3>
+            <a href="#" class="footer-nav__link">Twitter</a>
+            <a href="#" class="footer-nav__link">LinkedIn</a>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
